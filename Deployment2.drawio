@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T11:41:25.811Z" agent="5.0 (Windows)" version="20.5.1" etag="6EC14vQNkVKhPPlJSAI-" type="github"><diagram id="eVt0gDFKSDlF4-to9IMv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-26T11:52:12.723Z" agent="5.0 (Windows)" etag="5ACy_ga5kAiMTHjOVKm7" version="20.5.1" type="github">
+  <diagram id="eVt0gDFKSDlF4-to9IMv" name="Page-1">
+    <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8veB4Vs1f1GV_46OuNwf-1" target="8veB4Vs1f1GV_46OuNwf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-1" value="Github" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8veB4Vs1f1GV_46OuNwf-2" target="8veB4Vs1f1GV_46OuNwf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8veB4Vs1f1GV_46OuNwf-2" target="8veB4Vs1f1GV_46OuNwf-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="220" width="225" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-4" value="Pipeline" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="8veB4Vs1f1GV_46OuNwf-2">
+          <mxGeometry y="40" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-5" value="Build - Build virtual environment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="8veB4Vs1f1GV_46OuNwf-4">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-6" value="Test - Test function of application.py" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="8veB4Vs1f1GV_46OuNwf-4">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-7" value="Deploy - Deploy application" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="8veB4Vs1f1GV_46OuNwf-4">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-13" value="Notify - Notifies the developers" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="8veB4Vs1f1GV_46OuNwf-4">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-14" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8veB4Vs1f1GV_46OuNwf-2">
+          <mxGeometry x="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-15" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-20" value="&lt;div&gt;AWS&lt;/div&gt;&lt;div&gt;Elastic &lt;br&gt;&lt;/div&gt;&lt;div&gt;Beanstalk&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-21" value="&lt;div&gt;Jenkins pulls from&lt;/div&gt;&lt;div&gt;Github using&lt;/div&gt;&lt;div&gt;Personal access&lt;/div&gt;&lt;div&gt;Token&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-22" value="Testing greet function of application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-23" value="&lt;div&gt;Activates virtual environment, installs dependencies from requirements.txt&lt;/div&gt;&lt;div&gt;runs flask app&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-25" value="&lt;div&gt;Deploys using EB with&lt;/div&gt;&lt;div&gt;created environment&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8veB4Vs1f1GV_46OuNwf-26" value="&lt;div&gt;If all stages complete&lt;/div&gt;&lt;div&gt;Email sent to devs&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
